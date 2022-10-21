@@ -14,7 +14,7 @@ public class MexicanWave {
 }
 
 Мое решение:
- public static void wave(String str) {
+ public static Object[] wave(String str) {
 
         char[] words;
         ArrayList<Character> Upwords = new ArrayList<Character>();
@@ -37,6 +37,7 @@ public class MexicanWave {
                     arraynew.remove(i);
                 }
             }
+         return arraynew.toArray();    
         }
-        System.out.println(arraynew);
+        
     }
